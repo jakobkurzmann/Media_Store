@@ -1,0 +1,38 @@
+produkt(produkt_id:Pk,asin,titel,rating,bild) 
+
+buch(produkt_id:Pk,seitenzahl,erscheinungsdatum,isbn,(produkt_id ):Fk REF produkt (produkt_id))
+
+cd(produkt_id:Pk, erscheinungsdatum,(produkt_id):Fk REF produkt(produkt_id))
+
+dvd(produkt_id:Pk,format,laufzeit,regionencode,(produkt_id):Fk REF produkt(produkt_id))
+
+filiale(filial_id:Pk,name,strasse,plz)
+
+kategorie(kategorie_id:Pk,bezeichnung,(ueberkategorie):Fk REF kategorie(kategorie_id))
+
+produkt_kategorie((kategorie_id,produkt_id):Pk, (kategorie_id):Fk REF kategorie(kategorie_id),(produkt_id):Fk REF produk(produkt_id))
+
+buch_autor((produkt_id,autor):Pk,(produkt_id):Fk REF buch(produkt_id))
+
+buch_verlag((produkt_id,verlag):Pk,(produkt_id):Fk REF buch(produkt_id))
+
+cd_artist((produkt_id,artist):Pk,(produkt_id):Fk REF cd(produkt_id))
+
+cd_musiklabel((produkt_id,label):Pk,(produkt_id):Fk REF cd(produkt_id))
+
+cd_titel((produkt_id,titel):Pk,(produkt_id):Fk REF cd(produkt_id))
+
+dvd_actor((produkt_id,actor):Pk,(produkt_id):Fk REF dvd(produkt_id))
+
+dvd_director((produkt_id,director):Pk,(produkt_id):Fk REF dvd(produkt_id))
+
+dvd_creator((produkt_id,creator):pk,(produkt_id):Fk REF dvd(produkt_id))
+
+review(review_id:Pk,rating,helpful,reviewDate,benutzer,summary,comment,produkt_id:Fk REF produkt(produkt_id))
+
+kondition(konditions_id:Pk,preis,zustand,waehrung,produkt_id REF produkt(produkt_id),filial_id REF filiale(filial_id))
+
+sindÄhnlich((produkt_id1,produkt_id2):Pk,(produkt_id1):Fk REF produkt(produkt_id),(produkt_id2):Fk REF produkt(produkt_id))
+
+
+

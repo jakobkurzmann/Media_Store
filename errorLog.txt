@@ -1,0 +1,28 @@
+Produkt besitzt unbekannten Typ - Buch - und wurde deshalb nicht geladen
+Produkt - Robbie Williams - The Robbie Williams Show - besitzt keine ASIN und wurde deshalb nicht geladen!
+Produkt besitzt unbekannten Typ - Musical - und wurde deshalb nicht geladen
+Produkt mit ASIN: B00007DXEC besitzt keinen Titel, und wurde deshalb nicht geladen!
+Produkt - Les Paul & Mary Ford Shows: May & June 1950 [UK-Import] - besitzt keine ASIN und wurde deshalb nicht geladen!
+Could not load Product with asin : B00007DXEC into Table Produkt_Kategorie! Product not in DB!
+Could not load Product with asin : 3551065020 into Table Produkt_Kategorie! Product not in DB!
+Could not load Product with asin : 3551065020 into Table Produkt_Kategorie! Product not in DB!
+Could not load Product with asin : 3551065020 into Table Produkt_Kategorie! Product not in DB!
+Could not load Product with asin : 3551065020 into Table Produkt_Kategorie! Product not in DB!
+Could not load Product with asin : B00007DXEC into Table Produkt_Kategorie! Product not in DB!
+Could not load Product with asin : B00007DXEC into Table Produkt_Kategorie! Product not in DB!
+Could not load Review - Error: Product not in DB - B?0000IX6O - 5 - 0 - 2005-11-06 - gottlos1977 - Himmlisch
+Could not load Review - Error: Invalid Rating - B00006FXVN - Invalid Rating - 4 - 2004-03-21 - mhenatsch - Absolut empfehlenswert!
+Could not load Review - Error: Product not in DB - B00007DXEC - 4 - 3 - 2002-11-30 - svobi - Etwas für Jeden?!
+Could not load Review - Error: Product not in DB - B00007DXEC - 5 - 1 - 2005-07-01 - onlyonetiger - Echt Fett
+Could not load Review - Error: Product not in DB - B00007DXEC - 5 - 2 - 2002-12-25 - christrechow - gute Sache das....
+Could not load Review - Error: Product not in DB - B00007DXEC - 4 - 5 - 2002-12-03 - real_schweiger - Top Titel!!
+Could not load Review - Error: Product not in DB - B00007DXEC - 5 - 3 - 2004-02-23 - electrojack - Ich liebe es!
+Could not load Review - Error: Product not in DB - B0006440PO6 - 3 - 2 - 2005-02-23 - istnichtwichtig - Performance top, Technik flop
+------ Counter of the Errors ------
+Unbekannter Typ : 2
+Keine Asin : 2
+Kein Titel : 1
+Produkt schon in DB : 0
+Produkt von Kategorie nicht in DB : 7
+Produkt von Review nicht in DB : 7
+Rating von Review nicht valide : 1
